@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+    text-align: center;
+}
+.brown{
+    color: brown;
+}
+body{
+    border-style: solid;
+    border-color: blue;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+}
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.texti{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 60px;
+}
+.green{
+    color: green;
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
