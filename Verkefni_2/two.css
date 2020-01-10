@@ -1,0 +1,148 @@
+.border-g {
+  border: solid green;
+  margin: 20px;
+}
+.border-r{
+    color: red;
+    border: solid green;
+    margin: 50px;
+}
+.border-r2{
+    border: solid 5px red;
+    margin: 20px;
+}
+.blue{
+    color: blue;
+    border: dashed 4px blue;
+    margin: 50px;
+    padding: 20px;
+}
+.inc{
+    border: dashed 3px green;
+    padding: 1em;
+    margin: 1em;
+}
+.ank{
+    color: red;
+    border: dashed 3px blue;
+    padding: 1em;
+    margin: 1em;
+    display: inline;
+}
+.span{
+    border: dashed 3px red;
+    padding: 1em;
+    margin: 1em;
+    display: inline-block;
+}
+.left{
+    border: solid black;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.mynd{
+    float: right;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+.stor{
+    font-size: 50px;
+    color: black;
+    margin: 10px;
+}
+.stafir{
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.hinstor{
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    background-color: yellow;
+    padding-bottom: 10px;
+}
+.right{
+    border: solid black;
+    float: right;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -17px;
+}
+.italic{
+    font-style: italic;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+	 margin: 0 auto;
+	 font-family: sans-serif;
+}
+
+footer p {
+  text-align: center;
+}
+
+.gulur {
+	background-color: yellow; 
+}
+.raudur {
+	background-color: red; 
+}
+.graenn {
+	background-color: lime;
+}
+.blar {
+    background-color: cyan;
+}
+.box {
+	font-size: 1.2em;
+    height: 5em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.row{
+    display: flex;
+    flex-flow: row-reverse;
+}
+.row div{
+    flex-grow: 1;
+}
+.col{
+    display: flex;
+    flex-flow: column-reverse;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
