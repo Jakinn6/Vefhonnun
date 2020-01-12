@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body{
+    background-color: rgb(177, 141, 65);
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "midja midja midja midja haegri"
+    "vinstri vinstri vinstri vinstri haegri"
+    "fotur fotur fotur fotur fotur"
+}
+.header{
+    grid-area: haus;
+    background-color: rgb(183, 123, 53);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.navti{
+    grid-area: valmynd;
+    border: 2px solid black;
+    background-color: rgb(90, 55, 15);
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid black;
+    padding: 15px;
+}
+.main{
+    grid-area: midja;
+    border: 2px solid black;
+    padding: 15px;
+}
+.aside{
+    grid-area: haegri;
+    border: 2px solid black;
+    padding: 15px;
+}
+.mynd{
+    width: 300px;
+    height: 300px;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid black;
+    background-color: rgb(90, 55, 15);
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}

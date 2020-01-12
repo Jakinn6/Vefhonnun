@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto+Mono&display=swap');
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri midja midja midja haegri"
+    "fotur fotur fotur fotur fotur"
+}
+.header{
+    grid-area: haus;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.navti{
+    grid-area: valmynd;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid black;
+    padding: 15px;
+}
+.main{
+    grid-area: midja;
+    border: 2px solid black;
+    padding: 15px;
+}
+.aside{
+    grid-area: haegri;
+    border: 2px solid black;
+    padding: 15px;
+}
+.texti{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}

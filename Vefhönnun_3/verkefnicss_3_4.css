@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap');
+body{
+    background-color: rgb(62, 212, 129);
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+    "haus haus haus haus haus"
+    "valmynd valmynd valmynd valmynd valmynd"
+    "vinstri vinstri vinstri midja haegri"
+    "fotur fotur fotur fotur fotur"
+}
+.header{
+    grid-area: haus;
+    background-color: rgb(53, 183, 103);
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.navti{
+    grid-area: valmynd;
+    border: 2px solid black;
+    background-color: rgb(39, 158, 24);
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+.article{
+    grid-area: vinstri;
+    border: 2px solid black;
+    padding: 15px;
+    background-image: url(eddie.jpg);
+}
+.main{
+    grid-area: midja;
+    border: 2px solid black;
+    padding: 15px;
+}
+.aside{
+    grid-area: haegri;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.texti{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 30px;
+}
+.footer{
+    grid-area: fotur;
+    border: 2px solid black;
+    background-color: rgb(39, 158, 24);
+    display: flex;
+    flex-flow: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+}
+p{
+    font-family: 'Lora', serif;
+    color: yellow;
+}
+h1{
+    font-family: 'Nunito', sans-serif;
+    color: yellow;
+}
