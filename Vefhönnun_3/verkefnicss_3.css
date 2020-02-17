@@ -61,3 +61,12 @@ p{
 h1{
     font-family: 'Raleway', sans-serif;
 }
+a:link{
+    color: red;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: blue;
+}
