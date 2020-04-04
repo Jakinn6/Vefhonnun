@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Roboto&display=swap');
+body{
+    margin: 0;
+    background-color: yellow;
+}
+.strax{
+    background:linear-gradient(navy,blue);
+    height: 100vh;
+    text-align: center;
+}
+h1{
+    border-radius: 50%;
+    background: radial-gradient(circle,blue,cyan,navy);
+    position: absolute;
+    height: 900px;
+    width: 900px;
+    font-size: 160px;
+    font-family: 'Baloo Da 2', cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.link{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    background-color: lightblue;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+blockquote{
+    background: rgba(43, 173, 167, 0.7);
+}
+.liturmidja{
+    background-image: linear-gradient(lightyellow, yellow);
+    height: 100vh;
+}
+.container {
+    max-width: 60em; 
+    margin: 0 auto; 
+    padding: 0;
+}
+.col-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
